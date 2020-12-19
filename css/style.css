@@ -7,5 +7,11 @@ in html page i have created a class name called title*/
 .title {
     color: red;
 }
+.subtitle {
+    color: blue;
+}
 
+#contact-us {
+    color: green;
+}
 
