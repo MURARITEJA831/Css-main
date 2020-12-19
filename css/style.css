@@ -14,4 +14,5 @@ in html page i have created a class name called title*/
 #contact-us {
     color: green;
 }
-
+/* class is going to override the header and id is going to override the class selector*?
+/* override means when we create with same name selectors then it will do same operation for both */
