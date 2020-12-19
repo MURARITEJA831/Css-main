@@ -10,7 +10,7 @@ in html page i have created a class name called title*/
 .subtitle {
     color: blue;
 }
-
+/* it is id */
 #contact-us {
     color: green;
 }
