@@ -7,8 +7,43 @@
 </head>
 <!--css basic inline styling-->
 <body style="color: blue; font-size: 20px;" >
+    <!--we can override the styling-->
     <header>
-        <h1>CSS Tutorial</h1>
+        <h1 style="color: red;">CSS Tutorial</h1>
     </header>
+    <!--when we give border we need to give 3 values 1.width,2.thin or solid,3.color-->
+    <main style="border: 1px solid #0000ff; width: 80%; max-width: 500px;">
+        <p>This is paragraph</p>
+    </main>
+    <div style="padding:20px; background-color:rgb(47, 127, 153);"></div>
+        <p>padding is used to control the spacing inside the element and margins are used to control the spacing outside the element</p>
+    </div>
+    <div style="margin-block-start: 100px; background-color:lightblue;"></div>
+        <p>padding is used to control the spacing inside the element and margins are used to control the spacing outside the element</p>
+    </div><br/>
+    <!--display & flots-->
+    <main>
+        <ol type='1' style="float: left; background-color: orange;">
+            <li style="display: inline;">hello</li>
+            <li style="display: inline;">hai</li>
+            <li>how r u</li>
+        </ol>
+        <p>hello hai this is bhanu teja what can i do for youhello hai this is bhanu teja what can i do for youhello hai this is bhanu teja what can i do for youhello hai this is bhanu teja what can i do for youhello hai this is bhanu teja what can i do for you</p>
+    </main><br/>
+    <main>
+        <!--positions  we have 4 types of positions those are static,relative,absolute,fixes-->
+        <!--static-->
+        <h1 style="position: static; width: 90px;height: 90px; background-color: orange;"></h1>
+        <h1 style="position: static; width: 90px;height: 90px; background-color:red;"></h1>
+        <!--Relative-->
+        <h1 style="position: relative; width: 90px; height: 90px; bottom: 100px; background-color:blue;"></h1>
+        <!--Absolute positioning
+        when we change the position then if there is any free space then next element will move to that place-->
+        <h1 style="position: absolute; width: 90px; height: 90px; bottom: 10px; left: 2px; background-color:green;"></h1>
+        <!--Fixed position-->
+        <!--when we fix the position there there is no movement of that element at all-->
+        
+        <h1 style="position: fixed; width: 90px; height: 90px; bottom: 100px; background-color:gold;"></h1>
+    </main>
 </body>
 </html>
